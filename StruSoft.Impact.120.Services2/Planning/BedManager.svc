@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="StruSoft.Impact.V120.Services.Planning.BedManager" CodeBehind="BedManager.svc.cs" %>

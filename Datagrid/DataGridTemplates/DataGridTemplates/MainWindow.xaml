@@ -1,0 +1,55 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:model="clr-namespace:DataGridTemplates.Model"
+        xmlns:viewModel="clr-namespace:DataGridTemplates.ViewModel" x:Class="DataGridTemplates.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.Resources>
+            <ResourceDictionary>
+                <Style TargetType="{x:Type DataGridRow}">
+                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}"/>
+                </Style>
+                <Style x:Key="HeaderTemplate" TargetType="{x:Type DataGrid}">
+             
+                      
+                    </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+        <TabControl>
+            <TabItem Header="Invalid work days"></TabItem>
+            <TabItem Header="Work days" >
+                <Grid x:Name="InfoGrid" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.DataContext>
+                        <viewModel:CalendarVM/>
+                    </Grid.DataContext>
+                    <Label Grid.Row="0" FontStyle="Normal" HorizontalAlignment="Left">WorkDays</Label>
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                        <Button Width="40" Margin="0,0,5,0" Height="20" Content="Save"/>
+                        <Button Width="40" Height="20" Content="delete"/>
+                    </StackPanel>
+                    <DataGrid x:Name="WorkdayGrid" Grid.Row="1" ItemsSource="{Binding Path=CalendarList}" AutoGenerateColumns="True">
+                       
+                        <DataGrid.Resources>
+                            
+                            <Style TargetType="{x:Type DataGridRow}">
+                                <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}"/>
+                            </Style>
+                        </DataGrid.Resources>
+                        <DataGrid.RowHeaderTemplate>
+                         <DataTemplate>
+                                <Image Style="{StaticResource HeaderTemplate}"  Height="20" Width="20"></Image>
+                         </DataTemplate>
+                        </DataGrid.RowHeaderTemplate>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+
+</Window>

@@ -1,0 +1,3 @@
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\bin\Debug\DataSorucegrid.exe.config
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\App.g.cs
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\DataSorucegrid_MarkupCompile.cache

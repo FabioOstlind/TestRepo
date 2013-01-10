@@ -1,0 +1,15 @@
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\bin\Debug\MysticFlavour.CommandTest.exe.config
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\bin\Debug\MysticFlavour.CommandTest.exe
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\bin\Debug\MysticFlavour.CommandTest.pdb
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MysticFlavour.CommandTest.csprojResolveAssemblyReference.cache
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MainWindow.g.cs
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\App.g.cs
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MysticFlavour.CommandTest_MarkupCompile.cache
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MysticFlavour.CommandTest_MarkupCompile.lref
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MainWindow.baml
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MysticFlavour.CommandTest.g.resources
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MysticFlavour.CommandTest.Properties.Resources.resources
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MysticFlavour.CommandTest.csproj.GenerateResource.Cache
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MysticFlavour.CommandTest.exe
+D:\Tutorial\MysticFlavour.CommandTest\MysticFlavour.CommandTest\obj\Debug\MysticFlavour.CommandTest.pdb

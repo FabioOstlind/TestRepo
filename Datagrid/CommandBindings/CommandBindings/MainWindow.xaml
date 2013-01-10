@@ -1,0 +1,31 @@
+﻿<Window x:Class="CommandBindings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+   <Window.CommandBindings>
+       
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid ItemsSource="{Binding infoModelVms}">
+        
+        <DataGridTextColumn></DataGridTextColumn>
+        </DataGrid>
+    
+    
+    </Grid>
+        
+    
+       
+        
+   
+</Window>

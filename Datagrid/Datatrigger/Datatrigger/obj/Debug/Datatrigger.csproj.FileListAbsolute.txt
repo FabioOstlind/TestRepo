@@ -1,0 +1,13 @@
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\bin\Debug\Datatrigger.exe.config
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\bin\Debug\Datatrigger.exe
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\bin\Debug\Datatrigger.pdb
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\MainWindow.baml
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\MainWindow.g.cs
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\App.g.cs
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\Datatrigger_MarkupCompile.cache
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\Datatrigger.g.resources
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\Datatrigger.Properties.Resources.resources
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\Datatrigger.csproj.GenerateResource.Cache
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\Datatrigger.exe
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\Datatrigger.pdb
+D:\Tutorial\Datagrid\Datatrigger\Datatrigger\obj\Debug\Datatrigger.csprojResolveAssemblyReference.cache

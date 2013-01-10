@@ -1,0 +1,15 @@
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\bin\Debug\WpfDataGrid.exe.config
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\bin\Debug\WpfDataGrid.exe
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\bin\Debug\WpfDataGrid.pdb
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\WpfDataGrid.csprojResolveAssemblyReference.cache
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\MainWindow.baml
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\MainWindow.g.cs
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\App.g.cs
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\WpfDataGrid_MarkupCompile.cache
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\WpfDataGrid.g.resources
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\WpfDataGrid.Properties.Resources.resources
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\WpfDataGrid.csproj.GenerateResource.Cache
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\WpfDataGrid.exe
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\obj\Debug\WpfDataGrid.pdb
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\bin\Debug\EntityFramework.dll
+D:\Tutorial\Datagrid\WpfDataGrid\WpfDataGrid\bin\Debug\EntityFramework.xml

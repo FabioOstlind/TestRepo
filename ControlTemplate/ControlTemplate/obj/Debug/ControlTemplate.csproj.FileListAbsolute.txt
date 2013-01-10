@@ -1,0 +1,13 @@
+D:\Tutorial\ControlTemplate\ControlTemplate\bin\Debug\ControlTemplate.exe.config
+D:\Tutorial\ControlTemplate\ControlTemplate\bin\Debug\ControlTemplate.exe
+D:\Tutorial\ControlTemplate\ControlTemplate\bin\Debug\ControlTemplate.pdb
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.csprojResolveAssemblyReference.cache
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\MainWindow.baml
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\MainWindow.g.cs
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\App.g.cs
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate_MarkupCompile.cache
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.g.resources
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.Properties.Resources.resources
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.csproj.GenerateResource.Cache
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.exe
+D:\Tutorial\ControlTemplate\ControlTemplate\obj\Debug\ControlTemplate.pdb

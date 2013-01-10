@@ -1,0 +1,6 @@
+D:\Tutorial\EnumTestConverting\EnumTestConverting\bin\Debug\EnumTestConverting.exe.config
+D:\Tutorial\EnumTestConverting\EnumTestConverting\bin\Debug\EnumTestConverting.exe
+D:\Tutorial\EnumTestConverting\EnumTestConverting\bin\Debug\EnumTestConverting.pdb
+D:\Tutorial\EnumTestConverting\EnumTestConverting\obj\Debug\EnumTestConverting.csprojResolveAssemblyReference.cache
+D:\Tutorial\EnumTestConverting\EnumTestConverting\obj\Debug\EnumTestConverting.exe
+D:\Tutorial\EnumTestConverting\EnumTestConverting\obj\Debug\EnumTestConverting.pdb

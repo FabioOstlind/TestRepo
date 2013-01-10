@@ -1,0 +1,85 @@
+﻿<Window x:Class="IdataErrorValidation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModel="clr-namespace:IdataErrorValidation.ViewModel"
+        xmlns:model="clr-namespace:IdataErrorValidation.Model"
+
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+    
+ <Grid.DataContext>
+     <viewModel:ProductsVM/>
+ </Grid.DataContext>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.Resources>
+            <Style x:Key="TextBoxInError" TargetType="{x:Type TextBox}">
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                <Setter Property="Margin" Value="0,2,40,2"></Setter>
+                <Setter Property="Validation.ErrorTemplate">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <DockPanel LastChildFill="True">
+                                <Border Background="Red" DockPanel.Dock="Right" Margin="5,0,0,0" Width="20" Height="20" CornerRadius="10"
+                                        ToolTip="{Binding ElementName=customArdnorner, Path=AdornedElement.(Validation.Errors).CurrentItem.ErrorContent}"></Border>
+                                <AdornedElementPlaceholder Name="customArdnorner" VerticalAlignment="Center">
+                                    <Border BorderThickness="3" BorderBrush="Red"></Border>
+                                </AdornedElementPlaceholder>
+                            </DockPanel>
+                        </ControlTemplate>
+
+                    </Setter.Value>
+                </Setter>
+ 
+       
+            </Style>
+        </Grid.Resources>
+
+        <DataGrid x:Name="Grid1" Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=Products, Mode=OneWay}" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="ModelName">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock  Text="{Binding ModelName,Mode=TwoWay, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Validation.ErrorTemplate="{StaticResource ValidationTemplate}" Text="{Binding ModelName,Mode=TwoWay, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, NotifyOnValidationError=True, ValidatesOnExceptions=True, ValidatesOnNotifyDataErrors=True}" Style="{StaticResource TextBoxInError}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="RegNumber">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock  Text="{Binding RegNumber}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                           <TextBox Style="{StaticResource TextBoxInError}">
+                               <TextBox.Text>
+                                    <Binding Path="RegNumber" Mode="TwoWay" UpdateSourceTrigger="LostFocus" ValidatesOnDataErrors="True" NotifyOnValidationError="True"  ValidatesOnNotifyDataErrors="True">
+                                       <Binding.ValidationRules>
+                                        <viewModel:PriceIntRangeRule Max="9999" />
+                                       </Binding.ValidationRules>
+                                   </Binding>
+                               </TextBox.Text>
+                           </TextBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox Grid.Column="0" Grid.Row="1"  ToolTip="hej" Style="{StaticResource TextBoxInError}"></TextBox>
+       
+        
+    </Grid>
+</Window>

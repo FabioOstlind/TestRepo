@@ -1,0 +1,13 @@
+D:\Tutorial\TriggersTutorial\TriggersTutorial\bin\Debug\TriggersTutorial.exe.config
+D:\Tutorial\TriggersTutorial\TriggersTutorial\bin\Debug\TriggersTutorial.exe
+D:\Tutorial\TriggersTutorial\TriggersTutorial\bin\Debug\TriggersTutorial.pdb
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\MainWindow.baml
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\MainWindow.g.cs
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\App.g.cs
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\TriggersTutorial_MarkupCompile.cache
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\TriggersTutorial.g.resources
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\TriggersTutorial.Properties.Resources.resources
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\TriggersTutorial.csproj.GenerateResource.Cache
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\TriggersTutorial.exe
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\TriggersTutorial.pdb
+D:\Tutorial\TriggersTutorial\TriggersTutorial\obj\Debug\TriggersTutorial.csprojResolveAssemblyReference.cache

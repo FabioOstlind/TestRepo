@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5660C69D-02A8-4D4D-95DD-89367BCD5F8F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StruSoft.Impact.V120.Services</RootNamespace>
+    <AssemblyName>StruSoft.Impact.120.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StruSoftKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StruSoft.Impact">
+      <HintPath>..\Obfuscated Dependencies\StruSoft.Impact.dll</HintPath>
+    </Reference>
+    <Reference Include="StruSoft.Impact.120.DB">
+      <HintPath>..\Obfuscated Dependencies\StruSoft.Impact.120.DB.dll</HintPath>
+    </Reference>
+    <Reference Include="StruSoft.Impact.Settings">
+      <HintPath>..\Obfuscated Dependencies\StruSoft.Impact.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Planning\BedManager.svc" />
+    <Content Include="Planning\Calendar.svc" />
+    <Content Include="Planning\ModelPlanner.svc" />
+    <Content Include="Planning\NumberGenerator.svc" />
+    <Content Include="Planning\ProductionCast.svc" />
+    <Content Include="Planning\ProductionCastStrand.svc" />
+    <Content Include="Planning\ProductionFormStd.svc" />
+    <Content Include="Planning\ProductionFormStrandStd.svc" />
+    <Content Include="Planning\SectionStyleStd.svc" />
+    <Content Include="Planning\SlabStyleStd.svc" />
+    <Content Include="Planning\Transport.svc" />
+    <Content Include="Planning\TransportManager.svc" />
+    <Content Include="Planning\TransportStack.svc" />
+    <Content Include="Planning\TransportVehicleStd.svc" />
+    <Content Include="Planning\WallStyleStd.svc" />
+    <Content Include="ProjectManager.svc" />
+    <Content Include="Planning\TransportVehicleStackStd.svc" />
+    <Content Include="Report\ReportManager.svc" />
+    <Content Include="SQLScript.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModelBuilderLoader.cs" />
+    <Compile Include="OpenProjectLoader.cs" />
+    <Compile Include="Planning\BedManager.svc.cs">
+      <DependentUpon>BedManager.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\Calendar.svc.cs">
+      <DependentUpon>Calendar.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\Conv.cs" />
+    <Compile Include="Planning\ProductionBed.cs" />
+    <Compile Include="Planning\ProductionBedContainer.cs" />
+    <Compile Include="Planning\CustomValidator.cs" />
+    <Compile Include="Planning\ModelPlanner.svc.cs">
+      <DependentUpon>ModelPlanner.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\NumberGenerator.svc.cs">
+      <DependentUpon>NumberGenerator.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ProductionCast.svc.cs">
+      <DependentUpon>ProductionCast.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ProductionCastStrand.svc.cs">
+      <DependentUpon>ProductionCastStrand.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ProductionFormStd.svc.cs">
+      <DependentUpon>ProductionFormStd.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ProductionFormStrandStd.svc.cs">
+      <DependentUpon>ProductionFormStrandStd.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\SectionStyleStd.svc.cs">
+      <DependentUpon>SectionStyleStd.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\SlabStyleStd.svc.cs">
+      <DependentUpon>SlabStyleStd.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\TMElement.cs" />
+    <Compile Include="Planning\TMLoader.cs" />
+    <Compile Include="Planning\TMStack.cs" />
+    <Compile Include="Planning\TMTransport.cs" />
+    <Compile Include="Planning\TMVehicle.cs" />
+    <Compile Include="Planning\Transport.svc.cs">
+      <DependentUpon>Transport.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\TransportManager.svc.cs">
+      <DependentUpon>TransportManager.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\TransportStack.svc.cs">
+      <DependentUpon>TransportStack.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\TransportVehicleStd.svc.cs">
+      <DependentUpon>TransportVehicleStd.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\WallStyleStd.svc.cs">
+      <DependentUpon>WallStyleStd.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBrowserLoader.cs" />
+    <Compile Include="ProjectManager.svc.cs">
+      <DependentUpon>ProjectManager.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Planning\TransportVehicleStackStd.svc.cs">
+      <DependentUpon>TransportVehicleStackStd.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DrawingReport.cs" />
+    <Compile Include="Report\ElementReport.cs" />
+    <Compile Include="Report\ElementSummaryReport.cs" />
+    <Compile Include="Report\ReportManager.svc.cs">
+      <DependentUpon>ReportManager.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StruSoft.Impact.120.Planning.Common\StruSoft.Impact.120.Planning.Common.csproj">
+      <Project>{B2AE7773-3195-4CCA-8DED-8D039F6C3576}</Project>
+      <Name>StruSoft.Impact.120.Planning.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StruSoft.Impact.120.Report.Common\StruSoft.Impact.Report.Common.csproj">
+      <Project>{D25991B0-8FCB-44F0-871A-1C624453F027}</Project>
+      <Name>StruSoft.Impact.Report.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StruSoft.Impact.ProjectManager.Core\StruSoft.Impact.ProjectManager.Core.csproj">
+      <Project>{78CE195D-AE8C-457C-BD0D-88BE8DDE2CAC}</Project>
+      <Name>StruSoft.Impact.ProjectManager.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StruSoftKey.snk" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>51382</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

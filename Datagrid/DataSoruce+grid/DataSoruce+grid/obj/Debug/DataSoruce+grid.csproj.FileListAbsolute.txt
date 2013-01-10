@@ -1,0 +1,15 @@
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\bin\Debug\DataSoruce+grid.exe.config
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\DataSoruce+grid.csprojResolveAssemblyReference.cache
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\MainWindow.baml
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\MainWindow.g.cs
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\App.g.cs
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\DataSoruce+grid_MarkupCompile.cache
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\DataSoruce+grid.g.resources
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\DataSoruce_grid.Properties.Resources.resources
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\DataSoruce+grid.csproj.GenerateResource.Cache
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\bin\Debug\DataSoruce+grid.exe
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\bin\Debug\DataSoruce+grid.pdb
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\bin\Debug\EntityFramework.dll
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\bin\Debug\EntityFramework.xml
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\DataSoruce+grid.exe
+D:\Tutorial\Datagrid\DataSoruce+grid\DataSoruce+grid\obj\Debug\DataSoruce+grid.pdb

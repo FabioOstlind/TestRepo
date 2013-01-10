@@ -1,0 +1,16 @@
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\bin\Debug\DataGridTemplates.exe.config
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\bin\Debug\DataGridTemplates.exe
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\bin\Debug\DataGridTemplates.pdb
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\bin\Debug\EntityFramework.dll
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\bin\Debug\EntityFramework.xml
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\MainWindow.baml
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\MainWindow.g.cs
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\App.g.cs
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\DataGridTemplates_MarkupCompile.cache
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\DataGridTemplates.g.resources
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\DataGridTemplates.Properties.Resources.resources
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\DataGridTemplates.csproj.GenerateResource.Cache
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\DataGridTemplates.exe
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\DataGridTemplates.pdb
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Tutorial\Datagrid\DataGridTemplates\DataGridTemplates\obj\Debug\DataGridTemplates_MarkupCompile.lref

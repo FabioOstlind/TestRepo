@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ControlTemplate.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel.Resources>
+            <ControlTemplate x:Key="MyButton" TargetType="{x:Type Button}">
+                <Grid>
+                    <Border BorderBrush="Gray" BorderThickness="3" CornerRadius="2" Background="Yellow" TextBlock.Foreground="White"/>
+                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" RecognizesAccessKey="True" Margin="{TemplateBinding Property=Padding}"/>
+                </Grid>
+            </ControlTemplate>
+        </StackPanel.Resources>
+        <Button x:Name="RoundButton" Width="120" Height="50" Template="{StaticResource MyButton}" Padding="5" Margin="10" >lite info</Button>
+    </StackPanel>
+</Window>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Impact_1200_Latin1ModelStoreContainer" CdmEntityContainer="Impact_1200_Latin1Entities">
+    <EntitySetMapping Name="IMP_CALENDAR">
+      <EntityTypeMapping TypeName="Impact_1200_Latin1Model.IMP_CALENDAR">
+        <MappingFragment StoreEntitySet="IMP_CALENDAR">
+          <ScalarProperty Name="FACTORY" ColumnName="FACTORY" />
+          <ScalarProperty Name="PROJECT" ColumnName="PROJECT" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="CHANGED_BY" ColumnName="CHANGED_BY" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IMP_CALENDAR_INVALID_DAYS">
+      <EntityTypeMapping TypeName="Impact_1200_Latin1Model.IMP_CALENDAR_INVALID_DAYS">
+        <MappingFragment StoreEntitySet="IMP_CALENDAR_INVALID_DAYS">
+          <ScalarProperty Name="FACTORY" ColumnName="FACTORY" />
+          <ScalarProperty Name="PROJECT" ColumnName="PROJECT" />
+          <ScalarProperty Name="CALENDAR" ColumnName="CALENDAR" />
+          <ScalarProperty Name="DAY" ColumnName="DAY" />
+          <ScalarProperty Name="DAY_TYPE" ColumnName="DAY_TYPE" />
+          <ScalarProperty Name="CHANGED_BY" ColumnName="CHANGED_BY" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IMP_CALENDAR_WORKDAY">
+      <EntityTypeMapping TypeName="Impact_1200_Latin1Model.IMP_CALENDAR_WORKDAY">
+        <MappingFragment StoreEntitySet="IMP_CALENDAR_WORKDAY">
+          <ScalarProperty Name="FACTORY" ColumnName="FACTORY" />
+          <ScalarProperty Name="PROJECT" ColumnName="PROJECT" />
+          <ScalarProperty Name="CALENDAR" ColumnName="CALENDAR" />
+          <ScalarProperty Name="WEEKDAY" ColumnName="WEEKDAY" />
+          <ScalarProperty Name="DAY_TYPE" ColumnName="DAY_TYPE" />
+          <ScalarProperty Name="CHANGED_BY" ColumnName="CHANGED_BY" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

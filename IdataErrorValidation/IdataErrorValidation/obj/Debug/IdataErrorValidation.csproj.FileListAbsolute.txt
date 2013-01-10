@@ -1,0 +1,15 @@
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\bin\Debug\IdataErrorValidation.exe.config
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\bin\Debug\IdataErrorValidation.exe
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\bin\Debug\IdataErrorValidation.pdb
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\MainWindow.g.cs
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\App.g.cs
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\IdataErrorValidation_MarkupCompile.cache
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\IdataErrorValidation_MarkupCompile.lref
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\MainWindow.baml
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\IdataErrorValidation.g.resources
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\IdataErrorValidation.Properties.Resources.resources
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\IdataErrorValidation.csproj.GenerateResource.Cache
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\IdataErrorValidation.exe
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\IdataErrorValidation.pdb
+D:\Tutorial\IdataErrorValidation\IdataErrorValidation\obj\Debug\IdataErrorValidation.csprojResolveAssemblyReference.cache

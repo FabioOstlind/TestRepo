@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfDataGrid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"  />
+            <ColumnDefinition Width="*"  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+                           
+        </Grid.RowDefinitions>
+        <!--ItemsSource="{Binding Customers}"-->
+        <DataGrid  SelectedItem=" " Grid.Column="1" x:Name="dgCust" ItemsSource="{Binding Categories}"  AutoGenerateColumns="True" >
+            <DataGrid.Columns>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid Grid.Row="1" AutoGenerateColumns="True">
+            <DataGrid>
+                <DataGrid.Columns>
+                    <DataGridTextColumn></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </DataGrid>
+        
+    </Grid>
+</Window>

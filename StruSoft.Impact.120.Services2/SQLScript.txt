@@ -1,0 +1,40 @@
+﻿-------------------------------------------------
+-- Delete all transport data from DB, Template info is not deleted!
+delete from IMP_TRANSPORT where TRANSPORT_ID > 0;
+delete from IMP_TRANSPORT_STACK;
+delete from IMP_TRANSPORT_VEHICLE;
+
+update IMP_MODEL_PLANNING set
+TRANSPORT_ID = 0,
+VEHICLE_ID = 0,
+STACK_ID = 0,
+STACK_SEQUENCE_NO = 0,
+STACK_X = 0,
+STACK_Y = 0,
+STACK_Z = 0,
+STACK_ROTATION = 0;
+-------------------------------------------------
+-- Delete all cast data from DB, Beds are not deleted
+delete from IMP_PRODUCTION_CAST_STRAND;
+delete from IMP_PRODUCTION_CAST;
+
+update IMP_MODEL_PLANNING set
+	Cast_Id = 0,
+	Bed_Sequence_No = 0,
+	Bed_X = 0,
+	Bed_Y = 0,
+	Bed_Z = 0,
+	Bed_Rotation = 0;
+-------------------------------------------------
+
+-- DETECT ELEMENT INFO
+SELECT ELM.ELEMENT_MARK, ELM.ELEMENT_LENGTH, ELM.ELEMENT_WIDTH, ELM.ELEMENT_HEIGHT, ELM.ELEMENT_TYPE, ELM.ANGLE_LEFT_SIDE, 
+ELM.ANGLE_RIGHT_SIDE, ELM.STYLE, ELM.STRANDPTN, ELM.NBR_OF_STRANDS 
+
+FROM IMP_ELEMENT AS ELM
+
+WHERE
+ ( ELM.FACTORY = '1101'
+And ELM.PROJECT like '%BEGIN_REVIT'
+And ELM.ELEMENT_MARK like '%HC%'
+ ) 

@@ -1,0 +1,14 @@
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\bin\Debug\wpfBindings.exe.config
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\bin\Debug\wpfBindings.exe
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\bin\Debug\wpfBindings.pdb
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\MainWindow.baml
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\MainWindow.g.cs
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\App.g.cs
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\wpfBindings_MarkupCompile.cache
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\wpfBindings.g.resources
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\wpfBindings.Properties.Resources.resources
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\wpfBindings.csproj.GenerateResource.Cache
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\wpfBindings.exe
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\wpfBindings.pdb
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\wpfBindings.csprojResolveAssemblyReference.cache
+D:\Tutorial\Datagrid\wpfBindings\wpfBindings\obj\Debug\App.baml

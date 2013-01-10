@@ -1,0 +1,34 @@
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Services.dll
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Services.pdb
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.DB.dll
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Planning.Common.dll
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.ProjectManager.Core.dll
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Report.Common.dll
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.dll
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.Settings.dll
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Planning.Common.pdb
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Report.Common.pdb
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.ProjectManager.Core.pdb
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.pdb
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.DB.pdb
+C:\src\impact-mw\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.Settings.pdb
+C:\src\impact-mw\StruSoft.Impact.120.Services2\obj\Debug\StruSoft.Impact.120.Services2.csprojResolveAssemblyReference.cache
+C:\src\impact-mw\StruSoft.Impact.120.Services2\obj\Debug\StruSoft.Impact.120.Services.dll
+C:\src\impact-mw\StruSoft.Impact.120.Services2\obj\Debug\StruSoft.Impact.120.Services.pdb
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Services.dll
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Services.pdb
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.DB.dll
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Planning.Common.dll
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.ProjectManager.Core.dll
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Report.Common.dll
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.dll
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.Settings.dll
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Planning.Common.pdb
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.Report.Common.pdb
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.ProjectManager.Core.pdb
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.pdb
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.120.DB.pdb
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\bin\Debug\StruSoft.Impact.Settings.pdb
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\obj\Debug\StruSoft.Impact.120.Services2.csprojResolveAssemblyReference.cache
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\obj\Debug\StruSoft.Impact.120.Services.dll
+D:\WorkingFolder\Impact ModelViewer\StruSoft.Impact.120.Services2\obj\Debug\StruSoft.Impact.120.Services.pdb

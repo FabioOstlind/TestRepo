@@ -1,0 +1,15 @@
+D:\Tutorial\DataBindingLab\cs\bin\Debug\DataBindingLab.exe
+D:\Tutorial\DataBindingLab\cs\bin\Debug\DataBindingLab.pdb
+D:\Tutorial\DataBindingLab\cs\obj\Debug\DataBindingLab.csprojResolveAssemblyReference.cache
+D:\Tutorial\DataBindingLab\cs\obj\Debug\AddProductWindow.g.cs
+D:\Tutorial\DataBindingLab\cs\obj\Debug\MainWindow.g.cs
+D:\Tutorial\DataBindingLab\cs\obj\Debug\DataBindingLabApp.g.cs
+D:\Tutorial\DataBindingLab\cs\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Tutorial\DataBindingLab\cs\obj\Debug\DataBindingLab_MarkupCompile.cache
+D:\Tutorial\DataBindingLab\cs\obj\Debug\DataBindingLab_MarkupCompile.lref
+D:\Tutorial\DataBindingLab\cs\obj\Debug\DataBindingLabApp.baml
+D:\Tutorial\DataBindingLab\cs\obj\Debug\AddProductWindow.baml
+D:\Tutorial\DataBindingLab\cs\obj\Debug\MainWindow.baml
+D:\Tutorial\DataBindingLab\cs\obj\Debug\DataBindingLab.g.resources
+D:\Tutorial\DataBindingLab\cs\obj\Debug\DataBindingLab.exe
+D:\Tutorial\DataBindingLab\cs\obj\Debug\DataBindingLab.pdb

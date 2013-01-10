@@ -1,0 +1,13 @@
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\bin\Debug\CommandBindings.exe.config
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\bin\Debug\CommandBindings.exe
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\bin\Debug\CommandBindings.pdb
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\CommandBindings.csprojResolveAssemblyReference.cache
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\MainWindow.baml
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\MainWindow.g.cs
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\App.g.cs
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\CommandBindings_MarkupCompile.cache
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\CommandBindings.g.resources
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\CommandBindings.Properties.Resources.resources
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\CommandBindings.csproj.GenerateResource.Cache
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\CommandBindings.exe
+D:\Tutorial\Datagrid\CommandBindings\CommandBindings\obj\Debug\CommandBindings.pdb
